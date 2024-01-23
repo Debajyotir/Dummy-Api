@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
+const cors = require('cors');
 const port = 8000;
+app.use(cors());
 
 const chartData = {
     labels: ['','Week 1', '', 'Week 2', '', 'Week 3', '', 'Week 4',''],
