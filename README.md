@@ -10,6 +10,11 @@ To run the project, first, install Node.js if it is not already existing in the 
 npm install
 npm start
 ```
+Alternatively, you can use:
+```
+npm install
+node index.js
+```
 The application will run on port 5000.
 
 ### 2. How to Use the API, with Examples
