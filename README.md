@@ -28,7 +28,7 @@ or
 ```
 baseUrl/find/top/:limit
 ```
-Replace ````:limit ```` with a valid integer (e.g., 10 or 20) to retrieve the top 10 or 20 stocks of the current day. If :limit is greater than 4223, it will show only 4223 results, as this is the total number of stocks available on the current date.
+Replace ```:limit ``` with a valid integer (e.g., 10 or 20) to retrieve the top 10 or 20 stocks of the current day. If :limit is greater than 4223, it will show only 4223 results, as this is the total number of stocks available on the current date.
 
 Example URL:
 ```
