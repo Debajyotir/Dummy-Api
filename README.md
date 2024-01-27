@@ -23,7 +23,9 @@ All operations consider the current date as 25/01/2024. Historic data for the la
 #### Task 1: GET Route for the Top 10 Stocks
 ```
 http://localhost:5000/find/top/:limit
+```
 or
+```
 baseUrl/find/top/:limit
 ```
 Replace :limit with a valid integer (e.g., 10 or 20) to retrieve the top 10 or 20 stocks of the current day. If :limit is greater than 4223, it will show only 4223 results, as this is the total number of stocks available on the current date.
