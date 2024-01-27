@@ -71,7 +71,7 @@ Replace ```:code``` with a valid code from the BSE CSV file, and ```:limit``` wi
 
 Example URL:
 ```
-http://localhost:5000/find/history/512565/10
+http://localhost:5000/find/history/500002/10
 ```
 or
 ```
