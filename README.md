@@ -28,7 +28,7 @@ or
 ```
 baseUrl/find/top/:limit
 ```
-Replace ```:limit ``` with a valid integer (e.g., 10 or 20) to retrieve the top 10 or 20 stocks of the current day. If :limit is greater than 4223, it will show only 4223 results, as this is the total number of stocks available on the current date.
+Replace ```:limit ``` with a valid integer (e.g., 10 or 20) to retrieve the top 10 or 20 stocks of the current day. If ```:limit ``` is greater than 4223, it will show only 4223 results, as this is the total number of stocks available on the current date.
 
 Example URL:
 ```
@@ -47,7 +47,7 @@ or
 ```
 baseUrl/find/name/:name
 ```
-Replace :name with the case-sensitive name of the stock needed to find. If there is no match, an empty array will be returned. The name must be present on the current date.
+Replace ```:name``` with the case-sensitive name of the stock needed to find. If there is no match, an empty array will be returned. The name must be present on the current date.
 
 Example URL:
 ```
@@ -67,7 +67,7 @@ or
 baseUrl/find/history/:code/:limit
 ````
 
-Replace :code with a valid code from the BSE CSV file, and :limit with the number of days of history data required (maximum 50). If the code does not exist, an empty array will be returned.
+Replace ```:code``` with a valid code from the BSE CSV file, and ```:limit``` with the number of days of history data required (maximum 50). If the code does not exist, an empty array will be returned.
 
 Example URL:
 ```
@@ -111,7 +111,7 @@ or
 ```
 baseUrl/favourite/see/:userId
 ```
-Replace :userId with the unique ID given in the adding process. If the ID is not found, it will return a bad request. If the userID matches, it will provide all the details of the stock codes stored in the favorite list.
+Replace ```:userId``` with the unique ID given in the adding process. If the ID is not found, it will return a bad request. If the userID matches, it will provide all the details of the stock codes stored in the favorite list.
 
 Example URL:
 ```
