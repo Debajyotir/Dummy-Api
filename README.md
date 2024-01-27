@@ -35,17 +35,20 @@ or
 baseUrl/find/top/10
 ```
 
-Task 2: GET Route to Find Stocks by Name
+#### Task 2: GET Route to Find Stocks by Name
+```
 GET http://localhost:5000/find/name/:name
 or
 GET baseUrl/find/name/:name
+```
 Replace :name with the case-sensitive name of the stock needed to find. If there is no match, an empty array will be returned. The name must be present on the current date.
 
 Example URL:
+```
 http://localhost:5000/find/name/LLOYDSENT
 or
 baseUrl/find/name/LLOYDSENT
-
+```
 
 Task 3: GET Route to Get Stock Price History for UI Graph
 GET http://localhost:5000/find/history/:code/:limit
