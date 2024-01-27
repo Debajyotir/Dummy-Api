@@ -24,7 +24,7 @@ All operations consider the current date as 25/01/2024. Historic data for the la
 ```
 http://localhost:5000/find/top/:limit
 or
-GET baseUrl/find/top/:limit
+baseUrl/find/top/:limit
 ```
 Replace :limit with a valid integer (e.g., 10 or 20) to retrieve the top 10 or 20 stocks of the current day. If :limit is greater than 4223, it will show only 4223 results, as this is the total number of stocks available on the current date.
 
@@ -37,9 +37,9 @@ baseUrl/find/top/10
 
 #### Task 2: GET Route to Find Stocks by Name
 ```
-GET http://localhost:5000/find/name/:name
+http://localhost:5000/find/name/:name
 or
-GET baseUrl/find/name/:name
+baseUrl/find/name/:name
 ```
 Replace :name with the case-sensitive name of the stock needed to find. If there is no match, an empty array will be returned. The name must be present on the current date.
 
