@@ -6,7 +6,7 @@
 
 To run the project, first, install Node.js if it is not already existing in the system. Then, execute the following commands:
 
-```bash
+```
 npm install
 npm start
 ```
