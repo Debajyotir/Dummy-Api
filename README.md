@@ -20,7 +20,7 @@ The application will run on port 5000.
 ### 2. How to Use the API, with Examples
 All operations consider the current date as 25/01/2024. Historic data for the last 50 working days from 25/01/2024 (inclusive) are stored, covering the period from 15/11/2023 to 25/01/2024.
 
-Task 1: GET Route for the Top 10 Stocks
+#### Task 1: GET Route for the Top 10 Stocks
 GET http://localhost:5000/find/top/:limit
 or
 GET baseUrl/find/top/:limit
